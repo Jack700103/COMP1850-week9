@@ -24,7 +24,7 @@ plt.plot(df['date'], df['avg_pollution'],
          marker='o', linestyle='-', color='#1f77b4', 
          markersize=4, linewidth=1.5)
 
-plt.title('Leeds Central Air Quality - Created by [Your name]', fontsize=14, pad=20)
+plt.title('Leeds Central Air Quality - Created by [GuanJie Chen]', fontsize=14, pad=20)
 plt.xlabel('Date', fontsize=12, labelpad=10)
 plt.ylabel('Average Pollution Index', fontsize=12, labelpad=10)
 plt.grid(True, linestyle='--', alpha=0.7)
